@@ -19,6 +19,7 @@ along with Red.  If not, see <http://www.gnu.org/licenses/>.
 
 from collections import defaultdict
 from itertools import combinations
+from operator import add
 import numpy as np
 
 
@@ -96,7 +97,7 @@ class Red(object):
         self._predict_linear_v_downstream()
         self._predict_parallelism()
         self._predict_partially_interdependent()
-        s = sum([self._linear_u_downstream, self._linear_v_downstream,
+        s = reduce(add, [self._linear_u_downstream, self._linear_v_downstream,
                  self._parallel, self._partially_interdependent])
         # transform relationship scores into a distribution
         self._linear_u_downstream /= s
