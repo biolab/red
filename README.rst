@@ -43,18 +43,18 @@ Inferred factorized model ``gene_red`` includes:
 Citing
 ------
 
-	.. code-block:: none
+::
 
-        @article{Zitnik2014,
-          title={Gene network inference by probabilistic scoring of relationships from a factorized model of interactions},
-          author={{\v{Z}}itnik, Marinka and Zupan, Bla{\v{z}}},
-          journal={Bioinformatics},
-          volume={30},
-          number={12},
-          pages={i246--i254},
-          year={2014},
-          publisher={Oxford University Press}
-        }
+    @article{Zitnik2014,
+      title     = {Gene network inference by probabilistic scoring of relationships from a factorized model of interactions},
+      author    = {{\v{Z}}itnik, Marinka and Zupan, Bla{\v{z}}},
+      journal   = {Bioinformatics},
+      volume    = {30},
+      number    = {12},
+      pages     = {i246--i254},
+      year      = {2014},
+      publisher = {Oxford University Press}
+    }
 
 
 Contact: marinka.zitnik AT fri.uni-lj.si
