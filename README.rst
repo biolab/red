@@ -6,7 +6,7 @@ Epistasis analysis is a major tool from classical genetics to infer the order of
 Red is a conceptually new probabilistic approach to gene network inference from quantitative interaction data. The advantage of Red is the global treatment of the phenotype data through a factorized model and probabilistic scoring of pairwise gene relationships from latent gene presentations. Resulting gene network is assembled from scored relationships.
 
 This repository contains supplementary material for *Gene network inference by probabilistic scoring of relationships from a factorized model of interactions*,
-a submission to ISMB 2014 by Marinka Zitnik and Blaz Zupan.
+presented at ISMB 2014 by Marinka Zitnik and Blaz Zupan.
 
 Usage 
 -----
@@ -39,5 +39,19 @@ Inferred factorized model ``gene_red`` includes:
 	* inferred gene network for a given gene set of interest,
 	* gene latent representation,
 	* quality (Fro. error and NRMSE) of matrix completion.
+
+Cite
+----
+
+    @article{Zitnik2014,
+      title={Gene network inference by probabilistic scoring of relationships from a factorized model of interactions},
+      author={{\v{Z}}itnik, Marinka and Zupan, Bla{\v{z}}},
+      journal={Bioinformatics},
+      volume={30},
+      number={12},
+      pages={i246--i254},
+      year={2014},
+      publisher={Oxford University Press}
+    }
 
 Contact: marinka.zitnik AT fri.uni-lj.si
