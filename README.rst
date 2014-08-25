@@ -55,6 +55,3 @@ Citing
       year      = {2014},
       publisher = {Oxford University Press}
     }
-
-
-Contact: marinka.zitnik AT fri.uni-lj.si
